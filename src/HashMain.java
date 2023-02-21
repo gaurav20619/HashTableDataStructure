@@ -5,8 +5,18 @@ public class HashMain {
 
         System.out.println("---Word Frequency Calculator Program---");
         FrequencyCalculator mapString = new FrequencyCalculator();
-        System.out.println("Input Sentence : To be or not to be");
-        mapString.resultCalculate("To be or not to be");
+        System.out.println("Input Sentence : " + "Paranoids are not\n" +
+                                                "paranoid because they are paranoid but\n" +
+                                                "because they keep putting themselves\n" +
+                                                "deliberately into paranoid avoidable\n" +
+                                                "situations");
+        System.out.println();
+
+        mapString.resultCalculate("Paranoids are not" +
+                                        "paranoid because they are paranoid but" +
+                                        "because they keep putting themselves" +
+                                        "deliberately into paranoid avoidable" +
+                                        "situations");
 
     }
 }
